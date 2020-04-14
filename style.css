@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    height: 100vh;
+    /* background: rgb(252,53,76); */
+    background: linear-gradient(0deg, rgba(10,191,188,1) 0%, rgba(252,53,76,1) 93%);
+}
+.container{
+    /* font-family: 'Bangers', cursive; */
+    font-family: 'Varela Round', sans-serif;
+    margin:30px auto;
+    width:650px;
+    height:92%;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    border-radius: 20px;
+    background: linear-gradient(0deg, rgba(24,90,157,1) 5%, rgba(67,206,162,1) 100%);
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12)
+}
+.head{
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+
+.head h2{
+    /* width: 100%; */
+    font-weight: 900;
+    color:#444;
+    font:32px"bangers";
+
+}
+.sec-1{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+}
+.sec-1 h4{
+    font-size: 1.2em;
+    padding:20px 0px;
+    margin: 0;
+    width: 100%;
+}
+.sec-1-a{
+    width: 70%;
+}
+.sec-1-b{
+    width:30%;
+}
+input{
+    font:16px"Varela Round";
+    font-weight:600;
+    width: 90%;
+    padding:20px 10px;
+    border-radius: 5px;
+    outline: none;
+    color:#000;
+    border:1px solid #000;
+}
+button{
+    width: 100%;
+    font:16px"Varela Round";
+    font-weight: bold;
+    padding:20px 50px;
+    border-radius: 10px;
+    outline: none;
+    color:#000;
+    background-color:yellow;
+    border:1px solid #000;
+    cursor:pointer;
+}
+
+.task{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+li{
+    padding: 10px 0;
+    font-size:1.2em;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+
+
